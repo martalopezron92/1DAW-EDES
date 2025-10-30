@@ -1,0 +1,129 @@
+# Gitignore para el proyecto 1DAW-EDES
+# Creado el 30 de octubre de 2025
+
+# ===========================
+# CARPETA PROFESOR (Completa)
+# ===========================
+profesor/
+
+# ===========================
+# CONTENIDO FUERA DE U01
+# ===========================
+# Todas las unidades excepto u01
+docs/u02/
+docs/u03/
+docs/u04/
+docs/u05/
+docs/u06/
+
+
+# ===========================
+# PRÁCTICAS U01 (Excepto 001)
+# ===========================
+# Excluir todas las prácticas menos la 001
+docs/u01/practica/EDES-U1.-Practica001.md
+docs/u01/practica/EDES-U1.-Practica002.md
+docs/u01/practica/EDES-U1.-Practica003.md
+docs/u01/practica/EDES-U1.-Practica004.md
+docs/u01/practica/EDES-U1.-Practica010.md
+docs/u01/practica/EDES-U1.-Practica011.md
+
+
+# ===========================
+# Teoria
+# ===========================
+
+docs/u01/teoria
+
+# Excluir assets de prácticas (si existen)
+docs/u01/practica/assets/
+
+# ===========================
+# ARCHIVOS SISTEMA
+# ===========================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# ===========================
+# EDITORES E IDEs
+# ===========================
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ===========================
+# ARCHIVOS TEMPORALES
+# ===========================
+# Logs
+*.log
+
+# Archivos temporales
+*.tmp
+*.temp
+*~
+
+# Archivos de respaldo
+*.bak
+*.backup
+
+# ===========================
+# NODE.JS (Si se usa)
+# ===========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===========================
+# PYTHON (Si se usa)
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+
+# ===========================
+# DOCUMENTACIÓN GENERADA
+# ===========================
+# Si se genera documentación automática
+site/
+_site/
+
+# ===========================
+# CONFIGURACIÓN LOCAL
+# ===========================
+# Archivos de configuración local que no deben subirse
+config.local.*
+.env
+.env.local
+
+# ===========================
+# ARCHIVOS DE USUARIO
+# ===========================
+# Notas personales del profesor
+notas-profesor.md
+apuntes-personales.md
+*.personal.*
