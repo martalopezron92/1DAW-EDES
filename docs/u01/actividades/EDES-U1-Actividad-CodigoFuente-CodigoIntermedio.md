@@ -1,6 +1,9 @@
 ## 🎯 **ACTIVIDAD PRÁCTICA**
 ### **"Del Código al Ejecutable: Experimenta los Dos Caminos"**
 
+
+Para la realización de esta práctica puedes utilizar la siguiente [guia](./EDES-U1.-Guia-Instalacion-Herramientas.md) que te permitirá instalar las herramientas necesarias para su desarrollo.
+
 ---
 
 ### **📋 Descripción de la Actividad**
