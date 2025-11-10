@@ -16,7 +16,7 @@ tags:
 
 ### Descripción
 
-Haciendo uso de los distintos [Rankings de lenguajes de programación](https://www.digitallearning.es/blog/rankings-de-lenguajes-de-programacion/) y páginas de búsqueda de empleo como [infojobs](https://www.infojobs.net/), [tecnoempleo](https://www.tecnoempleo.com/), [linkedin](https://www.linkedin.com/) localiza los 5 lenguajes más usados y los 5 lenguajes con más ofertas de empleo respectivamente. Añade la información más relevante sobre estos lenguajes, mínimo responde a las siguientes preguntas:
+Haciendo uso de los distintos [Rankings de lenguajes de programación](https://www.tiobe.com/tiobe-index/) y páginas de búsqueda de empleo como [infojobs](https://www.infojobs.net/), [tecnoempleo](https://www.tecnoempleo.com/), [linkedin](https://www.linkedin.com/) localiza los 5 lenguajes más usados y los 5 lenguajes con más ofertas de empleo respectivamente. Añade la información más relevante sobre estos lenguajes, mínimo responde a las siguientes preguntas:
 
 1. ¿Qué paradigmas destacan en el lenguaje?
 2. ¿Cuál es la posición y evolución de este lenguaje durante los últimos 2 años?
