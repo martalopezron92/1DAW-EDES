@@ -1,17 +1,5 @@
----
-title: "UD 1 - P2: Herramientas para generar programa"
-description: Herramientas para generar programa
-summary: description: Herramientas para generar programa
-authors:
-    - Eduardo Fdez
-date: 2022-09-18
-icon:   
-permalink: /edes/unidad1/p1.2
-categories:
-    - EDES
-tags:
-    - Software
----
+# P2: Herramientas para generar programa
+
 ## Relación 1.2
 
 ### Descripción
