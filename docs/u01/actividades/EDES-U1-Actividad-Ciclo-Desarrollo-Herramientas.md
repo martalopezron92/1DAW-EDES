@@ -426,6 +426,148 @@ git commit -m "Configuración para generar documentación"
 
 ---
 
+## ⚠️ PROBLEMAS COMUNES CON JAVADOC
+
+### **❌ Error: "javadoc no se reconoce como comando"**
+
+**Causa:** Java JDK está instalado pero `javadoc` no está en el PATH del sistema.
+
+#### **Solución 1: Verificar instalación del JDK (NO JRE)**
+
+```powershell
+# Verificar versión de Java
+java -version
+
+# Si aparece solo "Java(TM) SE Runtime Environment", tienes JRE (no incluye javadoc)
+# Si aparece "Java(TM) SE Development Kit", tienes JDK (incluye javadoc)
+```
+
+**¿Qué hacer?**
+- **JRE instalado:** Descarga e instala el **JDK** completo desde [Oracle](https://www.oracle.com/java/technologies/downloads/) o [Adoptium](https://adoptium.net/)
+- **JDK ya instalado:** Continúa con Solución 2
+
+#### **Solución 2: Buscar dónde está javadoc.exe**
+
+```powershell
+# Buscar javadoc en tu disco C:
+Get-ChildItem -Path "C:\Program Files" -Recurse -Filter "javadoc.exe" -ErrorAction SilentlyContinue
+
+# Ubicaciones típicas:
+# C:\Program Files\Java\jdk-21\bin\javadoc.exe
+# C:\Program Files\Eclipse Adoptium\jdk-17.0.x-hotspot\bin\javadoc.exe
+# C:\Users\TuUsuario\.jdks\openjdk-21.0.x\bin\javadoc.exe
+```
+
+#### **Solución 3: Agregar javadoc al PATH (Temporal)**
+
+Una vez localizado el directorio `bin` que contiene `javadoc.exe`:
+
+```powershell
+# Ejemplo si tu JDK está en: C:\Program Files\Java\jdk-21\bin
+# AJUSTA LA RUTA A TU INSTALACIÓN
+$env:Path += ";C:\Program Files\Java\jdk-21\bin"
+
+# Verificar que ahora funciona
+javadoc -version
+```
+
+**⚠️ Nota:** Este método es temporal (solo para la sesión actual de PowerShell).
+
+#### **Solución 4: Agregar al PATH permanentemente**
+
+**Opción A: Usar PowerShell (Administrador)**
+
+```powershell
+# Ejecutar PowerShell como Administrador
+# AJUSTA LA RUTA A TU INSTALACIÓN
+[Environment]::SetEnvironmentVariable("Path", $env:Path + ";C:\Program Files\Java\jdk-21\bin", "Machine")
+
+# Reiniciar PowerShell y verificar
+javadoc -version
+```
+
+**Opción B: Interfaz gráfica de Windows**
+
+1. Presiona `Windows + Pausa` o busca "Variables de entorno"
+2. Clic en **"Variables de entorno"**
+3. En **Variables del sistema**, busca `Path` y haz clic en **Editar**
+4. Clic en **Nuevo** y añade la ruta completa al `bin` del JDK:
+   ```
+   C:\Program Files\Java\jdk-21\bin
+   ```
+5. Acepta todos los diálogos
+6. **Cierra y vuelve a abrir PowerShell**
+7. Verifica con `javadoc -version`
+
+#### **Solución 5: Usar ruta completa (Sin modificar PATH)**
+
+Si no puedes modificar el PATH, usa la ruta completa cada vez:
+
+```powershell
+# En vez de:
+javadoc -d docs -sourcepath src -encoding UTF-8 -charset UTF-8 Calculadora.java
+
+# Usa (ajusta la ruta):
+"C:\Program Files\Java\jdk-21\bin\javadoc.exe" -d docs -sourcepath src -encoding UTF-8 -charset UTF-8 Calculadora.java
+```
+
+#### **Verificación Final**
+
+```powershell
+# Estos comandos deben funcionar sin error:
+javac -version    # Compilador
+java -version     # Ejecutor
+javadoc -version  # Generador de documentación
+```
+
+**Resultado esperado:**
+```
+javadoc 21.0.x
+```
+
+---
+
+### **❌ Error: "error: package Calculadora does not exist"**
+
+**Causa:** Ejecutaste `javadoc` desde la carpeta equivocada o no especificaste correctamente el archivo.
+
+**Solución:**
+
+```powershell
+# Asegúrate de estar en la carpeta raíz del proyecto
+pwd
+# Debe mostrar: C:\...\MiCalculadora
+
+# El archivo Calculadora.java debe estar en src/
+ls src
+# Debe aparecer: Calculadora.java
+
+# Ejecuta javadoc indicando el archivo correctamente:
+javadoc -d docs -sourcepath src -encoding UTF-8 -charset UTF-8 src\Calculadora.java
+```
+
+---
+
+### **❌ Error: "warning: no comment"**
+
+**Causa:** No es un error, solo una advertencia. Significa que algún método no tiene comentarios Javadoc.
+
+**Solución:** Puedes ignorarlo o agregar comentarios completos a todos los métodos:
+
+```java
+/**
+ * Suma dos números
+ * @param a Primer número
+ * @param b Segundo número
+ * @return Resultado de la suma
+ */
+public double sumar(double a, double b) {
+    return a + b;
+}
+```
+
+---
+
 ## ✅ PASO 7: Verificación Final (3 minutos)
 
 ### **Checklist de la práctica:**
