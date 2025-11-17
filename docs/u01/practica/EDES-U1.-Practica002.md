@@ -25,7 +25,8 @@ Responde a las siguientes preguntas:
 Ademas de las respuestas a las preguntas anteriores, introduce en la entrega:   
 
 * El codigo fuente del lenguaje del grupo 1 y grupo 2.   
-* Captura de pantalla de la ejecucion del grupo 1 y grupo 2.   
+* Captura de pantalla de la ejecucion del grupo 1 y grupo 2.  
+* Documento respondiendo a las preguntas descritas más arriba. 
 
 ### Evaluación   
 
