@@ -28,7 +28,6 @@ Ten en cuenta que debeis simular los diferentes roles que participan en el frame
 
 | Criterio |Valor1 |Valor2 | Valor3|
 | ---------- | ---------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-|
 | RA1.g    | Realiza un slice confuso de las funcionalidades y de las tareas del sprint backlog.                                  |Realiza un slice adecuado de las funcionalidades y de las tareas del sprint backlog. | Realiza un slice completo y de las funcionalidades y de las tareas del sprint backlog, superando las expectativas del trabajo.  |
 
 ### Condiciones de entrega
