@@ -1,18 +1,6 @@
-<!-- ---
-title: "UD 1 - P1: Lenguajes de programación"
-description: Lenguajes de programación
-summary: description: Lenguajes de programación
-authors:
-    - Eduardo Fdez
-date: 2022-09-18
-icon:   
-permalink: /edes/unidad1/p1.1
-categories:
-    - EDES
-tags:
-    - Software
----
-## Relación 1.1 -->
+# P1: Lenguajes de programación
+
+## Relación 1.1 
 
 ### Descripción
 
