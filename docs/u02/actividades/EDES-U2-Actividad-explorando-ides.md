@@ -165,14 +165,14 @@ Abre este documento en un editor (Word/Google Docs) y completa la tabla mientras
 
 | Componente | ¿Dónde lo encuentro? | ¿Para qué sirve? | Atajo de teclado |
 |------------|----------------------|------------------|------------------|
-| **Editor de código** | Panel central | Escribir código | (siempre visible) |
-| **Explorador de archivos** | Barra lateral izquierda, primer ícono 📁 | Ver carpetas y archivos del proyecto | `Ctrl + Shift + E` |
-| **Buscador** | Barra lateral izquierda, ícono 🔍 | Buscar texto en archivos | `Ctrl + Shift + F` |
-| **Control de versiones (Git)** | Barra lateral izquierda, ícono de rama 🔀 | Gestionar versiones con Git | `Ctrl + Shift + G` |
-| **Extensiones** | Barra lateral izquierda, ícono de cuadrados □□ | Instalar plugins | `Ctrl + Shift + X` |
-| **Terminal integrada** | Menú superior: `View > Terminal` | Ejecutar comandos sin salir del IDE | `` Ctrl + ` `` |
-| **Panel de depuración** | Barra lateral izquierda, ícono ▶🐛 | Depurar código paso a paso | `Ctrl + Shift + D` |
-| **Configuración** | Menú: `File > Preferences > Settings` | Personalizar el IDE | `Ctrl + ,` |
+| **Editor de código** | |  |  |
+| **Explorador de archivos** | |  | |
+| **Buscador** | |  |
+| **Control de versiones (Git)** |||  |
+| **Extensiones** |  |  | |
+| **Terminal integrada** | | |  |
+| **Panel de depuración** | |  |  |
+| **Configuración** | |  |  |
 
 #### **C. Práctica: Abrir cada componente**
 
@@ -199,14 +199,14 @@ Ahora ve **abriendo cada componente** uno por uno usando los atajos de teclado:
 
 | Componente | ¿Dónde lo encuentro? | ¿Para qué sirve? | Atajo de teclado |
 |------------|----------------------|------------------|------------------|
-| **Editor de código** | Panel central | Escribir código | (siempre visible) |
-| **Explorador de proyecto** | Panel izquierdo "Project" | Ver estructura del proyecto | `Alt + 1` |
-| **Terminal integrada** | Menú: `View > Tool Windows > Terminal` | Ejecutar comandos | `Alt + F12` |
-| **Control de versiones (Git)** | Panel inferior o `VCS` en menú superior | Gestionar Git | `Alt + 9` |
-| **Plugins** | `File > Settings > Plugins` | Instalar extensiones | `Ctrl + Alt + S` luego buscar Plugins |
-| **Depurador** | Barra superior, ícono de insecto verde 🐛 | Depurar código | `Shift + F9` |
-| **Run** | Barra superior, ícono ▶ verde | Ejecutar programa | `Shift + F10` |
-| **Configuración** | `File > Settings` | Personalizar IDE | `Ctrl + Alt + S` |
+| **Editor de código** | |  |  |
+| **Explorador de proyecto** |  |  | |
+| **Terminal integrada** |  |  | |
+| **Control de versiones (Git)** | |  | |
+| **Plugins** | | | |
+| **Depurador** |  | | |
+| **Run** | | |  |
+| **Configuración** | |  |  |
 
 #### **C. Práctica: Abrir cada componente**
 
