@@ -10,12 +10,23 @@ profesor/
 # CONTENIDO FUERA DE U01
 # ===========================
 # Todas las unidades excepto u01
-docs/u02/
 docs/u03/
 docs/u04/
 docs/u05/
 docs/u06/
 
+
+# ===========================
+# Actividades
+# ===========================
+docs/u02/actividades/EDES-U2-Actividad-extensiones-ides.md
+
+
+# ===========================
+# Practica
+# ===========================
+
+docs/u02/practica
 
 # ===========================
 # PRÁCTICAS U01 (Excepto 001)
@@ -27,6 +38,8 @@ docs/u06/
 docs/u01/practica/EDES-U1.-Practica004.md
 docs/u01/practica/EDES-U1.-Practica010.md
 docs/u01/practica/EDES-U1.-Practica011.md
+docs/u02/practica/EDES-U2.-Practica001.md
+docs/u02/practica/EDES-U2.-Practica002.md
 
 
 # ===========================
@@ -34,6 +47,7 @@ docs/u01/practica/EDES-U1.-Practica011.md
 # ===========================
 
 docs/u01/teoria
+docs/u02/teoria
 
 # Excluir assets de prácticas (si existen)
 docs/u01/practica/assets/
