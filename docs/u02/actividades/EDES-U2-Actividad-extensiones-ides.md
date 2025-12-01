@@ -25,10 +25,9 @@ tags:
 | Propiedad | Valor |
 |-----------|-------|
 | **Tipo** | Actividad práctica no evaluable |
-| **Duración estimada** | 40-45 minutos |
 | **Modalidad** | Individual |
 | **Objetivo** | Instalar y usar extensiones para transformar un IDE básico |
-| **Requisitos previos** | - Haber completado Actividad 1<br>- Tener instalados VS Code y PyCharm/IntelliJ<br>- Haber leído la teoría 2.2 sobre Módulos |
+| **Requisitos previos** | - Haber completado Actividad 1<br>- Tener instalados VS Code e IntelliJ IDEA<br>- Haber leído la teoría 2.2 sobre Módulos |
 
 ---
 
@@ -37,7 +36,7 @@ tags:
 Al finalizar esta actividad serás capaz de:
 
 - ✅ Instalar extensiones en Visual Studio Code
-- ✅ Configurar plugins en PyCharm/IntelliJ IDEA
+- ✅ Configurar plugins en IntelliJ IDEA
 - ✅ Entender la diferencia entre un IDE básico y uno potenciado con extensiones
 - ✅ Usar herramientas de linting para detectar errores en el código
 - ✅ Usar formateadores automáticos de código
@@ -60,7 +59,7 @@ Vamos a tomar un archivo de código Python **mal escrito** (con errores de forma
 
 ---
 
-## 🧪 EXPERIMENTO: Del Caos al Orden
+## EXPERIMENTO: Del Caos al Orden
 
 Vamos a hacer un experimento en **3 fases**:
 
@@ -70,7 +69,7 @@ Vamos a hacer un experimento en **3 fases**:
 
 ---
 
-## 🔴 FASE 1: El Problema - Código Sin Extensiones (10 minutos)
+## FASE 1: El Problema - Código Sin Extensiones 
 
 ### **Paso 1.1: Crear el archivo de prueba**
 
@@ -117,9 +116,9 @@ otra_variable_sin_usar = "esto no se usa"
 ```
 
 5. **Observa el código en VS Code:**
-   - ¿Ves alguna advertencia? ❌ (No, porque no hay extensiones activas)
-   - ¿Ves colores en el código? ⚠️ (Muy básicos, solo resaltado de sintaxis básico)
-   - ¿Te dice que algo está mal? ❌ (No)
+   - ¿Ves alguna advertencia? 
+   - ¿Ves colores en el código? 
+   - ¿Te dice que algo está mal? 
 
 6. **Ejecuta el código** para verificar que funciona:
    ```powershell
@@ -151,7 +150,7 @@ otra_variable_sin_usar = "esto no se usa"
 
 ---
 
-### **📸 Checkpoint 1: Captura del código "feo"**
+### **Checkpoint 1: Captura del código "feo"**
 
 **Toma una captura de pantalla que muestre:**
 - VS Code con el archivo `codigo_feo.py` abierto
@@ -162,7 +161,7 @@ otra_variable_sin_usar = "esto no se usa"
 
 ---
 
-## 🟢 FASE 2: Instalando Superpoderes (15 minutos)
+## FASE 2: Instalando extensiones
 
 Ahora vamos a instalar las extensiones que detectarán y corregirán estos problemas automáticamente.
 
@@ -277,9 +276,9 @@ Ahora vamos a instalar las extensiones que detectarán y corregirán estos probl
 2. **Abrir de nuevo `codigo_feo.py`**
 
 3. **¿Qué deberías ver ahora?**
-   - 🟡 **Ondas amarillas** debajo de variables sin usar (`variable_que_nunca_uso`, `otra_variable_sin_usar`)
-   - 🟡 **Ondas amarillas** en líneas con formato incorrecto
-   - 💡 **Bombilla de sugerencias** cuando pasas el mouse sobre warnings
+   - **Ondas amarillas** debajo de variables sin usar (`variable_que_nunca_uso`, `otra_variable_sin_usar`)
+   - **Ondas amarillas** en líneas con formato incorrecto
+   - **Bombilla de sugerencias** cuando pasas el mouse sobre warnings
 
 ---
 
@@ -294,7 +293,7 @@ Ahora vamos a instalar las extensiones que detectarán y corregirán estos probl
 
 ---
 
-## 🟡 FASE 3: Ver la Magia en Acción (10 minutos)
+##  FASE 3: Ver la Magia en Acción
 
 Ahora vamos a usar las extensiones para transformar el código.
 
@@ -305,7 +304,7 @@ Ahora vamos a usar las extensiones para transformar el código.
    - O haz clic derecho en el editor → **Format Document**
    - O guarda el archivo: `Ctrl + S` (si configuraste "Format On Save")
 
-2. **¡MAGIA! ✨** El código debería transformarse instantáneamente a algo como esto:
+2. **¡MAGIA!** El código debería transformarse instantáneamente a algo como esto:
 
 ```python
 # Este código funciona pero está muy mal escrito
@@ -337,11 +336,11 @@ otra_variable_sin_usar = "esto no se usa"
 ```
 
 **¿Qué cambió?**
-- ✅ Espacios después de comas: `calcular(a, b, c)` en vez de `calcular(a,b,c)`
-- ✅ Espacios alrededor de operadores: `a + b` en vez de `a+b`
-- ✅ Indentación corregida
-- ✅ Líneas en blanco correctas entre funciones
-- ✅ Espacios dentro de paréntesis eliminados: `saludar(nombre)` en vez de `saludar( nombre )`
+- Espacios después de comas: `calcular(a, b, c)` en vez de `calcular(a,b,c)`
+- Espacios alrededor de operadores: `a + b` en vez de `a+b`
+- Indentación corregida
+- Líneas en blanco correctas entre funciones
+- Espacios dentro de paréntesis eliminados: `saludar(nombre)` en vez de `saludar( nombre )`
 
 ---
 
@@ -366,7 +365,7 @@ Aunque el código ahora está bien formateado, **Pylint** sigue mostrando warnin
 
 4. **Después de corregir:**
    - Guarda el archivo (`Ctrl + S`)
-   - Los warnings deberían desaparecer ✅
+   - Los warnings deberían desaparecer
 
 ---
 
@@ -381,63 +380,189 @@ Aunque el código ahora está bien formateado, **Pylint** sigue mostrando warnin
 
 ---
 
-## 🔧 PARTE 4: Extensiones en PyCharm (Opcional - 10 minutos)
+## 🔧 PARTE 4: Plugins en IntelliJ IDEA
 
-Si tienes **PyCharm** instalado, vamos a configurar herramientas similares.
+Si tienes **IntelliJ IDEA** instalado, vamos a explorar cómo instalar y usar plugins para potenciar el IDE.
 
-### **Paso 4.1: Configurar autopep8 como External Tool**
+### **Paso 4.1: Instalar plugins útiles en IntelliJ IDEA**
 
-PyCharm ya tiene muchas de estas funcionalidades integradas, pero podemos añadir autopep8 como herramienta externa.
+IntelliJ IDEA tiene un sistema de plugins muy potente que permite añadir funcionalidades para diferentes lenguajes y herramientas.
 
-1. **Instalar autopep8 (si no lo hiciste antes):**
-   ```powershell
-   pip install autopep8
+#### **Plugin 1: Grazie Pro (Corrector gramatical)**
+
+1. **Abrir el gestor de plugins:**
+   - Ve a: `File > Settings` (o `Ctrl + Alt + S`)
+   - En el menú lateral, selecciona: **Plugins**
+   - Verás dos pestañas: **Marketplace** (para buscar nuevos plugins) e **Installed** (plugins instalados)
+
+2. **Buscar e instalar Grazie Pro:**
+   - En la pestaña **Marketplace**, busca: `Grazie Pro`
+   - Haz clic en el plugin **"Grazie Pro"** (desarrollado por JetBrains)
+   - Haz clic en **Install**
+   - Espera a que se descargue e instale
+
+3. **¿Qué hace este plugin?**
+   - Corrige ortografía y gramática en comentarios
+   - Funciona con múltiples idiomas (español, inglés, etc.)
+   - Detecta errores en documentación JavaDoc
+   - Sugiere mejoras en la redacción
+
+---
+
+#### **Plugin 2: Rainbow Brackets (Brackets de colores)**
+
+1. **Buscar en Marketplace:**
+   - Busca: `Rainbow Brackets`
+   - Instala el plugin **"Rainbow Brackets"**
+
+2. **¿Qué hace este plugin?**
+   - Colorea paréntesis, llaves y corchetes con diferentes colores
+   - Facilita identificar el inicio y fin de bloques de código
+   - Muy útil en código con muchas anidaciones
+
+3. **Probar el plugin:**
+   - Crea un archivo Java con código anidado:
+   ```java
+   public class Test {
+       public static void main(String[] args) {
+           if (true) {
+               for (int i = 0; i < 10; i++) {
+                   System.out.println(i);
+               }
+           }
+       }
+   }
+   ```
+   - Verás cada nivel de llaves con un color diferente
+
+---
+
+#### **Plugin 3: Key Promoter X (Aprende atajos de teclado)**
+
+1. **Buscar e instalar:**
+   - Busca: `Key Promoter X`
+   - Instala el plugin
+
+2. **¿Qué hace este plugin?**
+   - Te muestra notificaciones cuando usas el mouse para algo que tiene atajo de teclado
+   - Te ayuda a aprender atajos de forma pasiva
+   - Aumenta tu productividad gradualmente
+
+3. **Ejemplo de uso:**
+   - La próxima vez que hagas clic en "Run" con el mouse
+   - Aparecerá una notificación: "Usa Shift+F10 en su lugar"
+
+---
+
+#### **Plugin 4: .ignore (Gestión de archivos .gitignore)**
+
+1. **Buscar e instalar:**
+   - Busca: `.ignore`
+   - Instala el plugin **".ignore"**
+
+2. **¿Qué hace este plugin?**
+   - Soporte avanzado para archivos `.gitignore`
+   - Autocompletado de patrones comunes
+   - Templates para diferentes lenguajes y frameworks
+   - Resaltado de sintaxis
+
+---
+
+### **Paso 4.2: Configurar inspecciones de código en IntelliJ**
+
+IntelliJ IDEA tiene un potente sistema de inspecciones integrado que detecta problemas en tu código.
+
+1. **Acceder a configuración de inspecciones:**
+   - `File > Settings > Editor > Inspections` (o `Ctrl + Alt + S`)
+   
+2. **Explorar inspecciones para Java:**
+   - En la lista de la izquierda, expande: **Java**
+   - Verás categorías como:
+     - **Code style issues** → Problemas de estilo
+     - **Probable bugs** → Posibles errores
+     - **Performance issues** → Problemas de rendimiento
+     - **Security** → Vulnerabilidades de seguridad
+
+3. **Activar inspecciones útiles:**
+   Asegúrate de que estén marcadas:
+   - ☑ **Java > Probable bugs > Constant conditions & exceptions**
+   - ☑ **Java > Code style issues > Unused declaration**
+   - ☑ **Java > Performance issues > String concatenation in loop**
+   - ☑ **Java > Visibility > Field may be 'final'**
+
+4. **Probar las inspecciones:**
+   Crea un archivo Java con problemas:
+   ```java
+   public class ProblemasCodigo {
+       public static void main(String[] args) {
+           int variableSinUsar = 42; // Warning: variable no usada
+           
+           String resultado = ""; // Warning: concatenación en loop
+           for (int i = 0; i < 100; i++) {
+               resultado = resultado + i; // Debería usar StringBuilder
+           }
+           
+           System.out.println(resultado);
+       }
+   }
+   ```
+   - Verás **subrayados amarillos** en los problemas detectados
+   - Pasa el mouse sobre ellos para ver la explicación
+
+---
+
+### **Paso 4.3: Usar un formateador de código**
+
+IntelliJ IDEA tiene un formateador de código integrado muy potente.
+
+1. **Crear código mal formateado:**
+   ```java
+   public class MalFormateado{
+   public static void main(String[]args){
+   int x=5;int y=10;
+   System.out.println(x+y);
+   }
+   }
    ```
 
-2. **Configurar en PyCharm:**
-   - Ve a: `File > Settings` (o `Ctrl + Alt + S`)
-   - Navega a: `Tools > External Tools`
-   - Haz clic en el botón **+** (Add)
+2. **Formatear automáticamente:**
+   - Presiona `Ctrl + Alt + L` (atajo para formatear código)
+   - O: `Code > Reformat Code`
+   - El código se transformará a:
+   ```java
+   public class MalFormateado {
+       public static void main(String[] args) {
+           int x = 5;
+           int y = 10;
+           System.out.println(x + y);
+       }
+   }
+   ```
 
-3. **Configuración de la herramienta:**
-   - **Name:** `autopep8`
-   - **Group:** `External Tools`
-   - **Program:** `autopep8`
-   - **Arguments:** `--in-place --aggressive --aggressive $FilePath$`
-   - **Working directory:** `$ProjectFileDir$`
-   - En "Advanced Options", marca: ☑ **Synchronize files after execution**
-
-4. **Aplicar y OK**
-
-5. **Usar la herramienta:**
-   - Abre un archivo Python
-   - Haz clic derecho → `External Tools > autopep8`
-   - El archivo se formateará automáticamente
-
----
-
-### **Paso 4.2: Activar inspecciones de código**
-
-PyCharm tiene inspecciones integradas que funcionan como Pylint:
-
-1. **Configuración:**
-   - `File > Settings > Editor > Inspections`
-   - En "Python", asegúrate de que estén marcadas:
-     - ☑ **PEP 8 coding style violation**
-     - ☑ **Unused local symbols**
-     - ☑ **Shadows name from outer scope**
-
-2. **Ahora PyCharm te mostrará warnings similares a Pylint automáticamente**
+3. **Configurar formateo automático al guardar:**
+   - `File > Settings > Tools > Actions on Save`
+   - Marca: ☑ **Reformat code**
+   - Marca: ☑ **Optimize imports**
+   - Ahora cada vez que guardes con `Ctrl + S`, el código se formateará
 
 ---
 
-### **📸 Checkpoint 4 (Opcional): PyCharm configurado**
+### **📸 Checkpoint 4: IntelliJ IDEA configurado**
 
-**Si hiciste esta parte opcional, toma captura de:**
-- Ventana de Settings mostrando la configuración de External Tools con autopep8
-- O un archivo Python en PyCharm con warnings visibles
+**Si hiciste esta parte, toma 2 capturas:**
 
-**Nombre:** `Checkpoint4-PyCharm-Extensiones.png`
+1. **Plugins instalados:**
+   - Ventana de Settings mostrando la pestaña **Plugins > Installed**
+   - Con los 4 plugins visibles (Grazie Pro, Rainbow Brackets, Key Promoter X, .ignore)
+   
+2. **Inspecciones en acción:**
+   - Archivo Java con código problemático
+   - Subrayados amarillos mostrando warnings detectados
+   - Panel de "Problems" visible en la parte inferior
+
+**Nombres:** 
+- `Checkpoint4-IntelliJ-Plugins.png`
+- `Checkpoint4-IntelliJ-Inspecciones.png`
 
 ---
 
@@ -501,7 +626,7 @@ Pista: ¿VS Code es un IDE especializado o un editor extensible?
 
 ---
 
-## 🎁 PARTE 6: Exploración Libre (5 minutos)
+## PARTE 6: Exploración Libre
 
 ### **Descubre más extensiones**
 
@@ -532,7 +657,8 @@ Para completar esta actividad, entrega:
 - ✅ `Checkpoint1-Codigo-Sin-Extensiones.png`
 - ✅ `Checkpoint2-Extensiones-Instaladas.png`
 - ✅ `Checkpoint3-Codigo-Formateado.png`
-- ⭐ `Checkpoint4-PyCharm-Extensiones.png` (opcional)
+- ⭐ `Checkpoint4-IntelliJ-Plugins.png` (opcional)
+- ⭐ `Checkpoint4-IntelliJ-Inspecciones.png` (opcional)
 
 ### **2. Documento con:**
 - ✅ Tabla de problemas identificados manualmente (Fase 1, Paso 1.2)
@@ -574,8 +700,8 @@ Para completar esta actividad, entrega:
 
 ### **P: ¿Puedo usar otras extensiones de formateo como Black?**
 **R:** Sí, **Black** es otro formateador popular. Puedes instalarlo con `pip install black` y seleccionarlo en Settings como "python formatting provider". Es más estricto que autopep8.
-
-### **P: En PyCharm no veo warnings de variables sin usar**
+### **P: En IntelliJ IDEA no veo warnings de variables sin usar**
+**R:** Ve a `File > Settings > Editor > Inspections > Java > Unused declaration` y asegúrate de que esté marcado y con severidad "Warning".
 **R:** Ve a `File > Settings > Editor > Inspections > Python > Unused local symbols` y asegúrate de que esté marcado y con severidad "Warning".
 
 ### **P: ¿Qué diferencia hay entre una extensión y un plugin?**
@@ -595,12 +721,12 @@ Esta actividad trabaja:
 ## 🎓 ¡Excelente Trabajo!
 
 Has descubierto el verdadero poder de los IDEs modernos: su capacidad de **transformarse** mediante extensiones.
-
 **Ahora sabes:**
-- ✅ Cómo instalar extensiones en VS Code y plugins en PyCharm
+- ✅ Cómo instalar extensiones en VS Code y plugins en IntelliJ IDEA
 - ✅ La diferencia entre un IDE básico y uno potenciado
 - ✅ Qué son los linters y formateadores de código
 - ✅ Cómo automatizar tareas repetitivas (formateo al guardar)
+- ✅ Que un buen IDE se adapta a TUS necesidadeseo al guardar)
 - ✅ Que un buen IDE se adapta a TUS necesidades
 
 **Siguiente paso:** En la Actividad 3 aprenderás a personalizar el IDE con temas, atajos y automatizaciones más avanzadas.
