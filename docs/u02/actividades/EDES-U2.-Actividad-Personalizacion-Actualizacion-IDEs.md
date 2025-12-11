@@ -1,22 +1,3 @@
----
-title: "Actividad - Personalización y Actualización de IDEs"
-description: Aprende a personalizar y mantener actualizado tu entorno de desarrollo
-summary: Práctica guiada para configurar y actualizar Visual Studio Code e IntelliJ IDEA
-authors:
-    - Marta López Roncero
-date: 2025-12-11
-icon:   
-permalink: /edes/unidad2/actividad-personalizacion
-categories:
-    - EDES
-    - Actividades
-tags:
-    - IDE
-    - Personalización
-    - Actualización
-    - Visual Studio Code
-    - IntelliJ IDEA
----
 
 # Actividad: Personalización y Actualización de IDEs
 
