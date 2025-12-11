@@ -90,8 +90,8 @@ Vamos a hacer un experimento en **3 fases**:
 ```python
 # Este código funciona pero está muy mal escrito
 def calcular(a,b,c):
-resultado=a+b*c
-return resultado
+ resultado=a+b*c
+ return resultado
 
 x=calcular(5,10,2)
 print(x)
