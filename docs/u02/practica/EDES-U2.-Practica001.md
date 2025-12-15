@@ -14,7 +14,7 @@ tags:
 --- -->
 # UD2: Evaluación de IDEs
 
-## 1. Descripción de la actividad:**
+## 1. Descripción de la actividad:
 En grupos de 4 personas, los estudiantes deberán elegir **dos IDEs** para trabajar (**Ver lista de ides posibles**). Cada miembro del grupo trabajará **individualmente** en los puntos 1 al 6, pero al final deberán reunirse para comparar sus resultados y realizar una **tabla comparativa** de los IDEs elegidos.
 
 La actividad se divide en dos partes:
