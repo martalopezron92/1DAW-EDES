@@ -51,7 +51,10 @@ style: |
     padding: 10px;
     margin: 10px 0;
     font-family: 'Courier New', monospace;
-    text-align: center;
+    text-align: left;
+    white-space: pre;
+    line-height: 1.15;
+    overflow-x: auto;
   }
   .columns {
     display: grid;
@@ -235,7 +238,7 @@ Dibuja en tu cuaderno el diagrama UML de la clase `Pelicula` con los siguientes 
 **Enunciado:**
 Observa el siguiente diagrama y responde las preguntas.
 
-<div class="uml-box">
+<pre class="uml-box">
 
 ┌──────────────────────────────┐
 │         CuentaBancaria       │
@@ -251,7 +254,7 @@ Observa el siguiente diagrama y responde las preguntas.
 │ <u>+ getTasa() : double</u>  │
 └──────────────────────────────┘
 
-</div>
+</pre>
 
 1. ¿Cuántos atributos de instancia hay? ¿Y estáticos?
 2. ¿Qué visibilidad tienen los atributos? ¿Y los métodos?
@@ -477,7 +480,7 @@ public class Producto {
 **Enunciado:**
 A partir del siguiente diagrama UML, escribe la clase Java completa (atributos, constructor y métodos indicados).
 
-<div class="uml-box">
+<pre class="uml-box">
 
 ┌──────────────────────────────────────────┐
 │                  Reserva                 │
@@ -497,7 +500,7 @@ A partir del siguiente diagrama UML, escribe la clase Java completa (atributos, 
 │ + toString() : String                    │
 └──────────────────────────────────────────┘
 
-</div>
+</pre>
 
 </div>
 
@@ -607,7 +610,7 @@ Diseña el diagrama UML (solo las cajas, sin flechas todavía) para el siguiente
 **Enunciado:**
 El siguiente diagrama tiene **5 errores**. Encuéntralos todos y escribe la corrección.
 
-<div class="uml-box">
+<pre class="uml-box">
 
 ┌────────────────────────────────┐
 │          pedido                │
@@ -621,7 +624,7 @@ El siguiente diagrama tiene **5 errores**. Encuéntralos todos y escribe la corr
 │ + cancelarPedido() : void      │
 └────────────────────────────────┘
 
-</div>
+</pre>
 
 </div>
 
@@ -635,7 +638,7 @@ El siguiente diagrama tiene **5 errores**. Encuéntralos todos y escribe la corr
 **Enunciado:**
 Encuentra los errores en este diagrama de interfaz.
 
-<div class="uml-box">
+<pre class="uml-box">
 
 ┌──────────────────────────────────┐
 │              IConectable         │
@@ -648,7 +651,7 @@ Encuentra los errores en este diagrama de interfaz.
 │ # validarIP(ip:String) : Boolean │
 └──────────────────────────────────┘
 
-</div>
+</pre>
 
 </div>
 
