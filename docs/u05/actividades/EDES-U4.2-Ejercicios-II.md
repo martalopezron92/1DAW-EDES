@@ -61,7 +61,7 @@ pasajero.
 
 ---
 
-## 4. Biblioteca (I)
+## 5. Biblioteca (I)
 
 Representa mediante un diagrama de clases la siguiente
 especificación relacionada con biblioteca
@@ -79,7 +79,7 @@ realizar el préstamo y devolución de libros.
 
 ---
 
-## 5. Sistema de Clínica Veterinaria
+## 6. Sistema de Clínica Veterinaria
 
 > "La clínica atiende mascotas cuyos dueños están registrados en el sistema. Cada mascota tiene un historial médico con visitas, tratamientos y vacunas. Los veterinarios pueden prescribir medicamentos y agendar citas de seguimiento."
 
@@ -96,7 +96,7 @@ realizar el préstamo y devolución de libros.
 
 ---
 
-## 6. Gestión de pedidos
+## 7. Gestión de pedidos
 
 Representa mediante un diagrama de clases la siguiente especificación
 relacionada con una aplicación de gestión de pedidos
@@ -107,7 +107,7 @@ relacionada con una aplicación de gestión de pedidos
 
 ---
 
-## 7. Biblioteca (II)
+## 8. Biblioteca (II)
 
 Modifica el diagrama de clases del ejercicio de la biblioteca para
 que contemple las siguientes especificaciones adicionales
@@ -118,7 +118,7 @@ socios en cada momento.
 
 ---
 
-## 8. Redes de computadores
+## 9. Redes de computadores
 
 Especificar un diagrama de clases que describa redes de
 computadores, teniendo en cuenta lo siguiente
@@ -135,7 +135,7 @@ cierto tiempo.
 
 ---
 
-## 9. Proyectos
+## 10. Proyectos
 
 Especificar un diagrama de clases que describa la gestión de
 proyectos informáticos siguiendo el proceso unificado
@@ -151,7 +151,7 @@ construcción y transición.
 
 ---
 
-## 10. Conferencias científicas
+## 11. Conferencias científicas
 
 - El sistema puede gestionar varias conferencias a la vez.
 - Cada conferencia tiene uno o dos chairmen.
@@ -162,7 +162,7 @@ artículos.
 
 ---
 
-## 11.Red Social Simple
+## 12.Red Social Simple
 
 > "Los usuarios pueden crear perfiles, publicar mensajes, seguir a otros usuarios y dar 'me gusta' a publicaciones. Las publicaciones pueden contener texto, imágenes o ambos. Los usuarios reciben notificaciones de nuevas actividades."
 
