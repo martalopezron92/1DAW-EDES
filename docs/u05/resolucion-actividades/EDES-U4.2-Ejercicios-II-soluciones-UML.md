@@ -1,7 +1,5 @@
 # Diagramas de clases UML - Ejercicios II
 
-Documento generado a partir del archivo **EDES-U4.2-Ejercicios-II.md**.
-
 Cada ejercicio incluye:
 
 1. Una tabla previa de análisis de clases.
